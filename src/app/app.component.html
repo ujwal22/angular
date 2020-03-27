@@ -1,0 +1,14 @@
+<div (mousemove)="onMouseMove($event)" ></div>
+{{data}}
+
+
+<h2>Move the mouse </h2>
+<div>
+ 
+  <body (mousemove)="mouseMove()">
+    Textbox appears below
+  </body>
+  <div>
+  <input type="text" [hidden]="xboolean">
+  </div>
+</div>
